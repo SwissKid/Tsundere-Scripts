@@ -1,0 +1,5 @@
+#!/bin/bash
+##This will tsundere your mplayer a bit
+echo -e "/033[35mI wouldn't normally watch this video with you, I just happen to be watching it at the same time! /033[1;37m"
+sleep 1
+/usr/bin/mplayer $@
