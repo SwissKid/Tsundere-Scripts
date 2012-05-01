@@ -1,0 +1,5 @@
+#!/bin/bash
+##Please move rm to mr in /bin/
+echo -e "\033[35mI wouldn't normally delete these files.... but maybe if it's with you...."
+sleep 0.5
+/bin/mr $@
