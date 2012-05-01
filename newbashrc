@@ -1,0 +1,4 @@
+# You must execute cat newbashrc >> ~/.bashrc
+# then log in again for these to work.
+alias cd="echo -e \"\\033[35mWell, I wouldn't go with you there, except I'm afraid you'd get lost if I let you go alone.... baka....\\033[1;37m\"; cd $@"
+
